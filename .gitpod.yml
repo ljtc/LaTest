@@ -1,0 +1,12 @@
+# .gitpod.yml
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Prepare LaTeX environment
+    command: echo "LaTeX environment ready!"
+
+# Opcional: Extensión de VS Code para LaTeX
+vscode:
+  extensions:
+    - James-Yu.latex-workshop
